@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document*/
+
+* {
+ 	padding:0;
+ 	margin:0;
+ }
+
+body {
+	width:100%;
+	background: #030;
+	font-size: 14px/20px;
+	font-family: fantasy;
+	color:#030;
+}
+
+.toptitle {
+	font-size:35px;
+	padding:20px 0;
+	color:#6f6;
+	text-shadow:2px 2px 2px black;
+
+}
+
+.topmenu {
+	position: absolute;
+	width: 100%;
+	background:#6F6;
+	text-align: center;
+}
+
+.menu {
+	margin:auto 0;
+	width:1000px;
+	list-style: none;
+}
+
+.toplist {
+	float:left;
+}
+ .presstop {
+ 	display: block;
+ 	margin-right: 60px;
+ 	width: 100px;
+ 	line-height: 44px;
+ 	text-decoration: none;
+ 	font-weight: bold;
+ 	font-size:20px;
+ 	color:#030;
+ }
+
+ .presstop:hover {
+ 	text-decoration: underline;
+ }
+
+ .wrapper {
+ 	height:800px;
+ 	width:100%;
+ 	overflow: auto;
+ 	background: white;
+ 	margin-top:40px;	
+ }
+
+ .content {
+ 	float:right;
+ 	width:900px;
+ 	margin-left: 10px;
+ 	margin-right: 50px;
+ 	padding:5px 10px 5px 10px;
+ }
+
+ .articletitle {
+ 	padding:10px 0;
+ 	margin-left: 80px;
+ 	margin-top: 5px;
+ }
+
+ .articletext {
+ 	padding: 10px;
+ 	color:#777;
+ }
+
+.articlecontent .blogPost {
+	font-size: 14px;
+	font-style: italic;
+}
+
+.alignleft {
+	float: left;
+	margin: 5px 10px 0 0;
+}
+
+.alignright {
+	float:right;
+	margin:5px 0 0 10px;
+}
+
+.submenu {
+	padding: 10px 20px;
+}
+
+.leftmenu {
+	margin-left: 20px;
+	list-style: square;
+}
+
+.lefttitle {
+	font-size: 18px;
+	padding: 10px 0;
+}
+
+.pressleft {
+	display: block;
+	text-decoration: none;
+	color:#030;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.pressleft:hover {
+	text-decoration: underline;
+}
+
+.copy {
+	clear:both;
+	width: 100%;
+	text-align: center;
+	border-top:1px solid #030;
+}
+
+.presscopy {
+	text-decoration: none;
+	color:#030;
+}
+
+.presscopy:hover {
+	text-decoration: underline;
+}
